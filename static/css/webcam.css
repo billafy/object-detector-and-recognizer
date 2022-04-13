@@ -1,0 +1,51 @@
+.window-container {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: nowrap;
+}
+.window-container .screen {
+	margin-top: 2rem;
+	width: 50%;
+	height: 80vh;
+	border: 2px solid #828a95;
+}
+.window-container .content {
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 2rem;
+}
+.window-container .content .content-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+.window-container .content .content-wrapper h2 {
+	font-family: "Nunito", sans-serif;
+	font-size: 1.4rem;
+	color: #e9ecef;
+}
+.window-container .content .content-wrapper p {
+	font-family: "Poppins", sans-serif;
+	font-size: 1.3rem;
+	font-weight: 500;
+	color: #abc4ff;
+}
+.window-container .content .content-wrapper .btn {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 0.5rem;
+	font-size: 1rem;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	transition: all 0.2s ease-in-out;
+}
+.window-container .content .content-wrapper .btn:hover {
+	background: #abc4ff;
+}
